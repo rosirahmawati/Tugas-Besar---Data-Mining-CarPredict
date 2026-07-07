@@ -1,4 +1,4 @@
-# Used Car Price Intelligence Engine (Indian Market - INR)
+# Used Car Market Segmentation & Price Intelligence Engine 
 
 Tugas Besar Mata Kuliah Penambangan Data (Data Mining)
 Prodi S1 Sistem Informasi, Universitas Telkom, Bandung (2026)
