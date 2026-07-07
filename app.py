@@ -487,7 +487,7 @@ with tab_model:
     st.write("---")
     
     st.markdown("#### Plot Sebaran Aktual vs Prediksi")
-    cluster_view = st.selectbox("Pilih Kluster:", [0, 2, 1], format_func=lambda x: nama_kluster[x].split(" (")[0])
+    cluster_view = st.selectbox("Pilih Kluster:", [0, 2, 1], format_func=lambda x: nama_kluster[x].split(" (")[0], key="selectbox_evaluasi_kluster")
     
     if cluster_view in eval_data:
         y_test_vals = eval_data[cluster_view]['y_test']
