@@ -322,7 +322,7 @@ with tab_predict:
 
                 st.markdown(f"""
                     <div class="prediction-card">
-                        <span class="cluster-badge {badge_class}">{nama_kluster[cluster_terpilih].split(" (")[0], key="selectbox_evaluasi_kluster"}</span>
+                        <span class="cluster-badge {badge_class}">{nama_kluster[cluster_terpilih].split(" (")[0]}</span>
                         <div style="font-size: 13px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px;">Hasil Estimasi Jual Wajar</div>
                         <div style="font-size: 32px; font-weight: 700; color: #10b981; margin: 4px 0;">{lakh_est}</div>
                         <div style="font-size: 14px; color: #cbd5e1;">Detail Nominal: INR {prediksi_harga:,.2f}</div>
@@ -513,7 +513,7 @@ with tab_model:
         ))
         
         fig_eval.update_layout(
-            title=f"Actual vs. Predicted Plot - {nama_kluster[cluster_view].split(' (')[0], key="selectbox_evaluasi_kluster"}",
+            title=f"Actual vs. Predicted Plot - {nama_kluster[cluster_view].split(' (')[0]}",
             xaxis_title="Harga Aktual (INR)",
             yaxis_title="Harga Prediksi (INR)",
             template="plotly_dark",
